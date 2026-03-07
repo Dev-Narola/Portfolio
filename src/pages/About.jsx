@@ -66,7 +66,7 @@ export default function About() {
 
     return (
         <PageTransition>
-            <section className="about-section relative w-full min-h-screen pt-32 pb-24 px-6 md:px-12 bg-white overflow-hidden">
+            <section className="about-section relative w-full min-h-screen py-24 md:pt-32 pb-24 px-4 sm:px-6 md:px-12 bg-white overflow-hidden">
 
                 {/* Three.js Interactive Background Canvas */}
                 <div
@@ -80,10 +80,10 @@ export default function About() {
                         // About Me
                     </h2>
 
-                    <div className="flex flex-col lg:flex-row gap-16 lg:gap-24">
+                    <div className="flex flex-col lg:flex-row gap-12 lg:gap-24">
 
                         {/* LEFT: Copy */}
-                        <div className="about-text flex-1 font-sans text-lg text-dark-gray leading-relaxed space-y-8 max-w-2xl">
+                        <div className="about-text flex-1 font-sans text-base md:text-lg text-dark-gray leading-relaxed space-y-6 md:space-y-8 max-w-2xl">
                             <p className="text-2xl text-ink font-medium leading-snug">
                                 Hi, I'm Dev — an AI Engineer from Surat, Gujarat, currently in my final year of B.Tech in Artificial Intelligence & Data Science at A. D. Patel Institute of Technology.
                             </p>
@@ -107,7 +107,7 @@ export default function About() {
                             {/* Three.js Icosahedron */}
                             <div
                                 ref={mountRef}
-                                className="w-48 h-48 md:w-64 md:h-64 cursor-none"
+                                className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 cursor-none mx-auto lg:mx-0"
                                 data-cursor="hover"
                             />
 

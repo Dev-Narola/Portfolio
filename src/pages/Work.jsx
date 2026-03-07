@@ -37,7 +37,7 @@ export default function Work() {
     return (
         <PageTransition>
             {/* Dark Section - specific to Work page according to PRD */}
-            <section className="work-section relative w-full min-h-screen bg-dark-bg text-white overflow-hidden py-32 px-6 md:px-12 flex flex-col items-center">
+            <section className="work-section relative w-full min-h-screen bg-dark-bg text-white overflow-hidden py-24 md:py-32 px-4 sm:px-6 md:px-12 flex flex-col items-center">
 
                 {/* Animated Interactive Background Canvas */}
                 <div
@@ -62,7 +62,7 @@ export default function Work() {
                             <a
                                 key={project.id}
                                 href={project.live || project.github || '#'}
-                                className="project-card group block w-full border border-[#222] bg-[#0A0A0A] bg-opacity-80 backdrop-blur-sm p-8 md:p-12 transition-all duration-500 hover:-translate-y-2 hover:border-white hover:bg-opacity-100"
+                                className="project-card group block w-full border border-[#222] bg-[#0A0A0A] bg-opacity-80 backdrop-blur-sm p-6 md:p-8 lg:p-12 transition-all duration-500 hover:-translate-y-2 hover:border-white hover:bg-opacity-100"
                                 data-cursor="hover"
                             >
                                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-6">
@@ -80,7 +80,7 @@ export default function Work() {
                                 </div>
 
                                 <div className="mb-6 max-w-3xl">
-                                    <h3 className="font-display text-4xl md:text-5xl lg:text-6xl text-white mb-4 group-hover:text-transparent group-hover:bg-clip-text transition-colors duration-500"
+                                    <h3 className="font-display text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-white mb-4 group-hover:text-transparent group-hover:bg-clip-text transition-colors duration-500"
                                         style={{ backgroundImage: `linear-gradient(to right, #FFF, ${project.accent})`, WebkitBoxDecorationBreak: 'clone' }}>
                                         {project.title}
                                     </h3>

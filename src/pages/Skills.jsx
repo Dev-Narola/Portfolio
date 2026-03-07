@@ -49,7 +49,7 @@ export default function Skills() {
 
     return (
         <PageTransition>
-            <section className="skills-section relative w-full min-h-screen py-32 px-6 md:px-12 bg-white overflow-hidden">
+            <section className="skills-section relative w-full min-h-screen py-24 md:py-32 px-4 sm:px-6 md:px-12 bg-white overflow-hidden">
 
                 {/* Three.js Interactive Background Canvas */}
                 <div
@@ -63,7 +63,7 @@ export default function Skills() {
                         // Technical Arsenal
                     </h2>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-16 max-w-5xl mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 max-w-5xl mx-auto">
 
                         {Object.entries(skills).map(([key, categorySkills], index) => {
                             // Format key to string: databases_cloud -> Databases & Cloud
@@ -75,14 +75,14 @@ export default function Skills() {
                                         {title === 'Ai & Ml' ? 'AI & ML' : title}
                                     </h3>
 
-                                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 w-full">
+                                    <div className="grid grid-cols-3 sm:grid-cols-4 gap-4 sm:gap-6 w-full">
                                         {categorySkills.map((skill, i) => (
                                             <div
                                                 key={i}
                                                 className="skill-item flex flex-col items-center justify-center gap-3 w-full group/icon perspective-1000"
                                                 data-cursor="hover"
                                             >
-                                                <div className="w-16 h-16 bg-white border border-light-gray rounded-xl flex items-center justify-center p-3 shadow-sm transform transition-all duration-500 group-hover/icon:-translate-y-2 group-hover/icon:shadow-md group-hover/icon:border-ink" style={{ transformStyle: 'preserve-3d' }}>
+                                                <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white border border-light-gray rounded-xl flex items-center justify-center p-2 sm:p-3 shadow-sm transform transition-all duration-500 group-hover/icon:-translate-y-2 group-hover/icon:shadow-md group-hover/icon:border-ink" style={{ transformStyle: 'preserve-3d' }}>
                                                     <img
                                                         src={skill.icon}
                                                         alt={skill.name}

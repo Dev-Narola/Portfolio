@@ -78,11 +78,11 @@ export default function Contact() {
                     className="absolute inset-0 z-0 pointer-events-none"
                 />
 
-                <div className="relative z-10 w-full max-w-5xl mx-auto flex flex-col md:flex-row gap-16 md:gap-24">
+                <div className="relative z-10 w-full max-w-5xl mx-auto flex flex-col md:flex-row gap-12 md:gap-24">
 
                     {/* Left Side: Contact Details */}
                     <div className="flex-1 flex flex-col justify-center">
-                        <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-ink font-bold leading-none mb-12 tracking-tighter mix-blend-difference pointer-events-none">
+                        <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-ink font-bold leading-none mb-8 md:mb-12 tracking-tighter mix-blend-difference pointer-events-none">
                             LET'S BUILD<br />SOMETHING.
                         </h1>
 
@@ -107,7 +107,7 @@ export default function Contact() {
                     </div>
 
                     {/* Right Side: Form */}
-                    <div className="flex-1 w-full max-w-md bg-white/80 backdrop-blur-md p-8 border border-light-gray">
+                    <div className="flex-1 w-full bg-white/80 backdrop-blur-md p-6 md:p-8 border border-light-gray">
                         <h3 className="font-mono text-sm tracking-widest text-mid-gray uppercase mb-8">
               // Or just send a message
                         </h3>

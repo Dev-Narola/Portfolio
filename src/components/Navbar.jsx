@@ -73,7 +73,7 @@ export default function Navbar() {
                     </Link>
 
                     {/* Desktop Nav */}
-                    <div className="hidden md:flex space-x-8">
+                    <div className="hidden md:flex space-x-4 lg:space-x-8">
                         {navLinks.map((link) => {
                             const isActive = location.pathname === link.path
                             return (
@@ -82,7 +82,7 @@ export default function Navbar() {
                                     to={link.path}
                                     data-cursor="hover"
                                     className={`
-                    text-sm font-medium relative py-2
+                    text-xs lg:text-sm font-medium relative py-2
                     ${isActive ? 'text-ink' : 'text-mid-gray hover:text-ink'}
                     transition-colors duration-200
                   `}

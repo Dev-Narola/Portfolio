@@ -31,7 +31,7 @@ export default function Education() {
 
     return (
         <PageTransition>
-            <section className="education-section relative w-full min-h-screen py-32 px-6 md:px-12 bg-off-white overflow-hidden">
+            <section className="education-section relative w-full min-h-screen py-24 md:py-32 px-4 sm:px-6 md:px-12 bg-off-white overflow-hidden">
 
                 {/* Animated Interactive Background Canvas */}
                 <div
@@ -49,7 +49,7 @@ export default function Education() {
                         {education.map((edu, index) => (
                             <div
                                 key={index}
-                                className="edu-card relative bg-white border border-light-gray p-8 flex flex-col group transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] hover:border-ink"
+                                className="edu-card relative bg-white border border-light-gray p-6 md:p-8 flex flex-col group transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_40px_-15px_rgba(0,0,0,0.05)] hover:border-ink"
                             >
 
                                 {/* Header Box */}
@@ -57,7 +57,7 @@ export default function Education() {
                                     <div className="inline-block px-3 py-1 bg-off-white border border-light-gray font-mono text-[10px] uppercase tracking-widest text-mid-gray mb-4 rounded-sm">
                                         {edu.level}
                                     </div>
-                                    <h3 className="font-display text-2xl text-ink font-bold leading-tight mb-2 group-hover:text-accent transition-colors duration-300">
+                                    <h3 className="font-display text-xl md:text-2xl text-ink font-bold leading-tight mb-2 group-hover:text-accent transition-colors duration-300">
                                         {edu.degree}
                                     </h3>
                                     <p className="font-sans text-sm text-dark-gray font-medium">

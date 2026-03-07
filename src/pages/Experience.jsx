@@ -62,7 +62,7 @@ export default function Experience() {
 
     return (
         <PageTransition>
-            <section className="experience-section relative w-full min-h-screen py-32 px-6 md:px-12 bg-white overflow-hidden">
+            <section className="experience-section relative w-full min-h-screen py-24 md:py-32 px-4 sm:px-6 md:px-12 bg-white overflow-hidden">
 
                 {/* Animated Interactive Background Canvas */}
                 <div
@@ -94,7 +94,7 @@ export default function Experience() {
 
                                         {/* Left Column (Desktop) / Top Column (Mobile) */}
                                         <div className={`w-full md:w-1/2 md:px-12 ${isEven ? 'md:text-right' : 'md:text-left md:order-last'} mb-6 md:mb-0 pl-10 md:pl-12`}>
-                                            <h3 className="font-display text-2xl md:text-3xl text-ink font-bold mb-2 group-hover:text-accent transition-colors duration-300">
+                                            <h3 className="font-display text-xl md:text-2xl lg:text-3xl text-ink font-bold mb-2 group-hover:text-accent transition-colors duration-300">
                                                 {job.role}
                                             </h3>
                                             <div className="font-sans text-lg text-dark-gray font-medium mb-1">
