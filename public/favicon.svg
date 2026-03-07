@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#FFFFFF"/>
+  <!-- The letter "D" -->
+  <path fill-rule="evenodd" d="M120 140 h 80 c 80 0, 80 230, 0 230 h -80 v -230 z m 40 40 v 150 h 40 c 40 0, 40 -150, 0 -150 h -40 z" fill="#0A0A0A"/>
+  <!-- The letter "N" -->
+  <path d="M290 140 h 40 l 60 150 v -150 h 40 v 230 h -40 l -60 -150 v 150 h -40 v -230 z" fill="#0A0A0A"/>
+  <!-- Blue accent line -->
+  <rect x="120" y="400" width="28" height="6" fill="#2563EB"/>
+</svg>
