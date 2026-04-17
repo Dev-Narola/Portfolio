@@ -49,7 +49,6 @@ export default function Navbar() {
         { name: 'Skills', path: '/skills' },
         { name: 'Work', path: '/work' },
         { name: 'Experience', path: '/experience' },
-        { name: 'Education', path: '/education' },
         { name: 'Contact', path: '/contact' }
     ]
 

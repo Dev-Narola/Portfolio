@@ -11,7 +11,6 @@ const About = lazy(() => import('./pages/About'))
 const Work = lazy(() => import('./pages/Work'))
 const Skills = lazy(() => import('./pages/Skills'))
 const Experience = lazy(() => import('./pages/Experience'))
-const Education = lazy(() => import('./pages/Education'))
 const Contact = lazy(() => import('./pages/Contact'))
 
 // Fallback loader while lazy loading
@@ -37,7 +36,6 @@ function App() {
           <Route path="/skills" element={<Skills />} />
           <Route path="/work" element={<Work />} />
           <Route path="/experience" element={<Experience />} />
-          <Route path="/education" element={<Education />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Suspense>
